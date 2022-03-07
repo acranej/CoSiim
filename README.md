@@ -1,2 +1,2 @@
-# CoSim
+# CoSiim
 Cosine Similarity Package
