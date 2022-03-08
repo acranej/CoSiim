@@ -1,9 +1,9 @@
-### cosine similarity function
-#*
-#* Input is 2 matrices with dimensions (A x B) (A x C)
-#* One side of each matrix must have the same length as the other
-#* Returns a matrix of cosine similarity values between the two input matrices
-#*
+#' @name cosine_similarity
+#' @description determines the cosine similarity for two matrices
+#' @param W1 matrix
+#' @param W2 matrix
+#' @return matrix of cosine similarity between dimensions of input matrices
+#' @export
 cosine_similarity = function(W1,W2) {
   K1 <- ncol(W1)
   K2 <- ncol(W2)
