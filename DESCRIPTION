@@ -1,9 +1,10 @@
 Package: CoSim
-Title: Cosine Siimilarity Between Matrices
+Title: Gives cosine similarity
 Version: 0.0.9
 Authors@R: 
-    Alex
-Description: Cosine similarity
+    person("Alex", "C", , "first.last@example.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: What the package does (one paragraph).
 License: `use_mit_license()`
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
