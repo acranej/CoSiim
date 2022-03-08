@@ -1,0 +1,2 @@
+# CoSiim
+Cosine Similarity Package
