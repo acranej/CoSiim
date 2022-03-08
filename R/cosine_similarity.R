@@ -4,7 +4,7 @@
 #* One side of each matrix must have the same length as the other
 #* Returns a matrix of cosine similarity values between the two input matrices
 #*
-plot.W.correlation <- function(W1,W2) {
+cosine_similarity = function(W1,W2) {
   K1 <- ncol(W1)
   K2 <- ncol(W2)
   x <- array(0,dim=c(K1,K2))
