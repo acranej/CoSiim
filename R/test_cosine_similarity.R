@@ -6,8 +6,8 @@
 #' @export
 
 test_cosine_similarity = function()  {
-  W1 <- readRDS(system.file("data","example_mat_1.rds", package = 'CoSim'))
-  W2 <- readRDS(system.file("data","example_mat_2.rds", package = 'CoSim'))
+  W1 <- readRDS(system.file("data","example_mat1.rds", package = 'CoSim'))
+  W2 <- readRDS(system.file("data","example_mat2.rds", package = 'CoSim'))
   result = cosine_similarity(W1, W2)
   return(result)
 }
