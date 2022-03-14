@@ -1,11 +1,12 @@
 Package: CoSim
-Title: Gives cosine similarity
+Title: Cosine Similarity
 Version: 0.0.9
-Authors@R: 
-    person("Alex", "C", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`
+Authors@R: person("Alex", "C", email = "acrane@broadinstitute.org", role = c("aut", "cre"))
+Description: returns a matrix of cosine similarity values betweeen elements in the input matrices
+License: GPL-2
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
+Depends:
+  R(>= 3.5.0)
+BugReports: https://github.com/acranej/CoSim/issues
